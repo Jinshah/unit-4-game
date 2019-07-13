@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("../images/villains-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.logo {
+  max-width: 300px;
+}
+li {
+  max-width: 25%;
+  width: 25%;
+  float: left;
+  list-style-type: none;
+}
+li div {
+  margin: 10px;
+  border: 1px solid #bb4eeb;
+  background: #000;
+}
+.newenemies div {
+  border: 1px solid #d03737;
+}
+#selectedchar li,
+#defenderchar li {
+  max-width: 100%;
+  width: 100%;
+}
+#enemies,
+#defenderchar,
+#selectedchar {
+  margin-top: 30px;
+}
+
+li h4,
+li p {
+  text-align: center;
+  padding: 10px;
+}
+li p {
+  margin-bottom: 0px;
+}
+li h6,
+li h5,
+li h3 {
+  display: none;
+}
