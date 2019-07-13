@@ -38,13 +38,14 @@ $(document).ready(function() {
 
   for (var i = 0; i < players.length; i++) {
     var charname = players[i].name;
-    var url = window.location.href;
+    // var url = window.location.href;
+    var url = "https://jinshah.github.io/unit-4-game/";
     $("#enemies ul").append(
       "<li><div><h4>" +
         players[i].name +
         "</h4><img src='" +
         url +
-        "/assets/images/" +
+        "assets/images/" +
         players[i].imageName +
         "'class='img-fluid'/>" +
         "<p>" +
