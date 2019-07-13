@@ -44,7 +44,7 @@ $(document).ready(function() {
         players[i].name +
         "</h4><img src='" +
         url +
-        "assets/images/" +
+        "/assets/images/" +
         players[i].imageName +
         "'class='img-fluid'/>" +
         "<p>" +
